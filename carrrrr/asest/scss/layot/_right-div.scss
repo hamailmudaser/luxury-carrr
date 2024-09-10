@@ -1,0 +1,68 @@
+.div-right {
+    width: 70%;
+    height: 100vh;
+    // background-color: black;
+    nav {
+      margin-right: 20px;
+      padding-top: 30px;
+      justify-content: right;
+      display: flex;
+      ul {
+        display: flex;
+        li {
+          list-style: none;
+          padding-left: 20px;
+          padding-right: 20px;
+          a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+          }
+        }
+      }
+      .search-box {
+        margin-bottom: 12px;
+        margin-left: 22px;
+        border-bottom: 1px solid #fff;
+
+        i {
+          margin-top: 16px;
+          color: #eeeeee;
+          font-size: 16px;
+        }
+        input {
+          width: 135px;
+          margin-top: 14px;
+          background-color: #000;
+          color: #eeeeee;
+          border: none;
+          font-size: 15px;
+        }
+      }
+    }
+    .button {
+      margin-left: 87%;
+      align-items: end;
+      margin-top: 250px;
+      display: flex;
+      justify-content: end;
+      border-bottom: 2px solid #ff0101;
+      width: 120px;
+      button {
+        color: #ff0101;
+
+        background-color: #000000;
+        border: none;
+        margin-left: 55px;
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+    .fotter {
+      margin-top: 532px;
+      font-size: 20px;
+      margin-left: 110px;
+      color: #ff0101;
+      justify-content: center;
+    }
+  }

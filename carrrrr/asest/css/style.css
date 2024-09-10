@@ -1,0 +1,147 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-left {
+  width: 30%;
+  height: 100vh;
+}
+.div-left .logo a img {
+  width: 160px;
+  height: 45px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.div-left .button {
+  margin-top: 250px;
+  border-bottom: 2px solid black;
+  width: 127px;
+}
+.div-left .button button {
+  color: #000;
+  background-color: #ff0101;
+  border: none;
+  margin-left: 55px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.div-left .vedio {
+  margin-top: 435px;
+  padding-top: 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  height: 108px;
+  background: #ff3232;
+}
+.div-left .vedio i {
+  height: 86px;
+  border: 2px solid white;
+  border-radius: 55px;
+  font-size: 83px;
+  margin-left: 10px;
+  color: #fff;
+  padding-left: 8px;
+}
+.div-left .vedio h3 {
+  font-size: 16px;
+  margin-top: 37px;
+  margin-left: 10px;
+  color: #000;
+}
+
+.div-right {
+  width: 70%;
+  height: 100vh;
+}
+.div-right nav {
+  margin-right: 20px;
+  padding-top: 30px;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.div-right nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.div-right nav ul li {
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.div-right nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.div-right nav .search-box {
+  margin-bottom: 12px;
+  margin-left: 22px;
+  border-bottom: 1px solid #fff;
+}
+.div-right nav .search-box i {
+  margin-top: 16px;
+  color: #eeeeee;
+  font-size: 16px;
+}
+.div-right nav .search-box input {
+  width: 135px;
+  margin-top: 14px;
+  background-color: #000;
+  color: #eeeeee;
+  border: none;
+  font-size: 15px;
+}
+.div-right .button {
+  margin-left: 87%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border-bottom: 2px solid #ff0101;
+  width: 120px;
+}
+.div-right .button button {
+  color: #ff0101;
+  background-color: #000000;
+  border: none;
+  margin-left: 55px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.div-right .fotter {
+  margin-top: 532px;
+  font-size: 20px;
+  margin-left: 110px;
+  color: #ff0101;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body, html {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, red), color-stop(30%, black));
+  background: linear-gradient(to right, red 30%, black 30%);
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

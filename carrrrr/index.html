@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luxury Cars</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link rel="stylesheet"
+            href="path/to/font-awesome/css/font-awesome.min.css">
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="./asest/css/style.css">
+        <style>
+            html,
+            body {
+              position: relative;
+              height: 100%;
+            }
+      
+            body {
+              font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+              font-size: 14px;
+              color: #000;
+              margin: 0;
+              padding: 0;
+            }
+      
+            .swiper {
+                position: absolute; 
+                top: 0;             
+                left: 0;  
+                z-index: 3;
+              width: 100%;
+              height: 100%;
+            }
+      
+            .swiper-slide {
+              text-align: center;
+              font-size: 18px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .lancer-text {
+                font-size: 15vw;
+                color: white;
+                text-align: center;
+                letter-spacing: 5px;
+                position: absolute;
+                top: -71px;
+                left: 283px;
+                z-index: -1;
+            }
+      
+            .swiper-slide img {    
+                width: 77%;
+                margin-top: -36px;
+                margin-left: 100px;
+                height: 83%;
+            }
+          </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="div-left">
+                <div class="logo">
+                    <a href>
+                        <img src="./asest/images/Logo and Font.png" alt>
+                    </a>
+                </div>
+                <div class="vedio">
+                    <i class='bx bx-play'></i>
+                    <h3>Watch Vedio</h3>
+                </div>
+            </div>
+            <div class="div-right">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#" class="active">Model</a></li>
+                        <li><a href="#">Inventory</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <div class="search-box">
+                        <i class='bx bx-search'></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                </nav>
+                <div class="fotter">
+                    <h4>Our Website : www.luxurycars.com</h4>
+                </div>
+            </div>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h2 class="lancer-text">LANCER</h2>
+                    <img src="./asest/images/Lancer.png" alt>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="lancer-text">LANCER</h2>
+                    <img src="./asest/images/Lancer.png" alt>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="lancer-text">LANCER</h2>
+                    <img src="./asest/images/Lancer.png" alt>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="lancer-text">LANCER</h2>
+                    <img src="./asest/images/Lancer.png" alt>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                  pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                  },
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                  },
+                });
+              </script>
+        </div>
+
+    </body>
+</html>
